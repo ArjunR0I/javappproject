@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/your-repo/spring-hello.git'
+                git credentialsId: 'Git Hub Uname and owd', url: 'https://github.com/ArjunR0I/javappproject.git'
             }
         }
 
