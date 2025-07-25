@@ -1,7 +1,5 @@
 pipeline {
-    agent any {
-        label 'docker' // ensure this node has Docker installed
-    }
+    agent any 
 
     stages {
         stage('Checkout') {
