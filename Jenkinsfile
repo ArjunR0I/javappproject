@@ -1,5 +1,5 @@
 pipeline {
-    agent {
+    agent any {
         label 'docker' // ensure this node has Docker installed
     }
 
